@@ -1,0 +1,462 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/*
+ ///////////////////////////
+////////////////////////////
+///////////header///////////
+////////////////////////////
+////////////////////////////
+ */
+
+/* navbar */
+/* logo */
+.navbar-brand img
+{
+    width: 100px;
+    margin-left: 30px;
+}
+/* /////// */
+.navv::after
+{
+    content: '';
+    background-color: rgb(255, 255, 255);
+    width: 1px;
+    height: 68px;
+    position: absolute;
+    top: 0.5%;
+    right: 19%;
+}
+/* ///////////////////////////////////////////////////////// */
+.text-backs
+{
+    top: 30%;
+    height: 100%;    
+}
+
+/* test///// */
+
+.text-backs h1
+{
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+.text-backs h4
+{
+    
+    font-weight: 400;
+    font-size: 25px;
+}
+.all
+{
+    background-color: royalblue;
+}
+/* ///////////////////////// */
+/* animation///// */
+.head-title
+{
+    animation: move 1s ;
+}
+@keyframes move
+{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes move
+{
+    0%{transform: scale(0,0);}
+    100%{transform: scale(1.6.1.6);}
+}
+
+.four-back
+{
+    animation: four-back 2s ;
+}
+@keyframes four-back
+{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes four-back
+{
+    0%{transform: scale(0,0);}
+    100%{transform: scale(1.6.1.6);}
+}
+.ahmed-nav
+{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.ahmedsdsd
+{
+    animation: three-btnon 3s ;
+}
+@keyframes three-btnon
+{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes three-btnon
+{
+    0%{transform: scale(0,0);}
+    100%{transform: scale(1.6.1.6);}
+}
+/* hover */
+ /* .head-title
+{
+    transition:opacity 1s ;
+    transition: transform 1s;
+    opacity: 0.8;
+}
+.head-title:hover 
+{
+    opacity:2;
+    transform: scale(1.2,1.2);
+} 
+.four
+{
+    transition: transform 1s;
+    opacity: 0.8;
+}
+.four:hover
+{
+    opacity:2;
+    transform: scale(1.5,1.5);
+} */
+/* /////////////// */
+/* direction */
+.boxxing-right
+{
+    
+    font-size: 30px;
+    padding: 10px;
+    position: absolute;
+    top: 70%;
+}
+
+.boxxing
+{
+    font-size: 30px;
+    padding: 10px;
+    position: absolute;
+    top: 62%;
+}
+/* /////////////// */
+
+
+/*
+ ///////////////////////////
+////////////////////////////
+///////////team/////////////
+////////////////////////////
+////////////////////////////
+ */
+.teat-team
+{
+    position: relative;
+}
+.words h2
+{
+    font-size: 4rem;
+    color: #f1f1f1;
+}
+.words h3
+{
+    margin-top: 15px;
+    font-size: 5rem;
+}
+
+.wordbres h2
+{
+    font-weight: 600;
+}
+.wordbres p
+{
+    font-weight: 500;
+}
+
+/* photos */
+.img-photo
+{
+position: relative;
+}
+.test-hover
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 110, 253, 0.5);
+
+    transition: top 0.5s;
+}
+.title-hover
+{
+    padding-top: 150px;
+}
+/* hover///////// */
+.img-photo:hover .test-hover
+{
+  top: 0px;
+}
+.test-hover
+{
+position: absolute;
+top: 100%;
+}
+/* /////////////////////////////// */
+
+.img-photo
+{
+    margin-top: 50px;
+    animation: hero 5s  1s ;
+}
+
+
+@keyframes hero
+{
+    0%{bottom: 0;opacity: 0;}
+    25%{bottom: 20px;}
+    50%{bottom: 20px;}
+    75%{bottom: 15px;}
+    100%{bottom: 18px;pacity:1;}
+    
+}
+
+
+
+/*
+ ///////////////////////////
+////////////////////////////
+///////////what we do/////////////
+////////////////////////////
+////////////////////////////
+ */
+
+ #do
+ {
+     
+    background-color: #4d4848;
+ }
+
+ .fa-angle-left
+ {
+     color: rgb(18, 175, 223);
+     font-size: 60px;
+ }
+/* animation//////////////////////////////////////////////////// */
+ .one-icon
+ {
+     color: white;
+     animation: one 1s  ;
+ }
+ 
+ @keyframes one 
+ {
+     0%{opacity: 0;}
+     100%{opacity: 1;}
+ }
+ .two-icon
+ {
+    color: white;
+    animation: two 2s  ;
+ }
+ 
+ @keyframes two 
+ {
+     0%{opacity: 0;}
+     100%{opacity: 1;}
+ }
+ .three-icon
+ {
+    color: white;
+    animation: three 3s  ;
+ }
+
+ @keyframes three 
+ {
+     0%{opacity: 0;}
+     100%{opacity: 1;}
+ }
+ 
+ .four-icon
+ {
+    color: white;
+    animation: four 6s  ;
+ }
+
+ @keyframes four 
+ {
+     0%{opacity: 0;}
+     100%{opacity: 1;}
+ }
+ 
+ .five-icon
+ {
+    color: white;
+    animation: five 8s  ;
+ }
+
+ @keyframes five 
+ {
+     0%{opacity: 0;}
+     100%{opacity: 1;}
+ }
+ 
+ .sex-icon
+ {
+    color: white;
+    animation: sex 10s  ;
+ }
+
+ @keyframes sex 
+ {
+     0%{opacity: 0;}
+     100%{opacity: 1;}
+ }
+ 
+/* animation//////////////////////////////////////////////////// */
+.ah h3
+{ 
+  font-size: 50px;
+}
+
+.test-dowhat
+{
+  animation: test 4s ;
+}
+@keyframes test
+{
+    0%{opacity: 0;left: 0;}
+    100%{opacity: 1;left: 50px;}
+}
+
+
+.list-tessss
+{
+  animation: tests 4s ;
+}
+@keyframes tests
+{
+    0%{opacity: 0;right: 0;}
+    100%{opacity: 1;right:  50px;}
+}
+
+
+
+
+
+.shariha h2
+{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+.shariha
+{
+  position: relative;
+}
+.ahmeddd h2
+{
+    font-size: 20px;
+    
+}
+.ahmeddd
+{
+    position: relative;
+bottom: 50px;
+
+}
+
+
+
+
+/*
+ ///////////////////////////
+////////////////////////////
+///////////slider/////////////
+////////////////////////////
+////////////////////////////
+ */
+#slider
+{
+    background-color: #f4f4f4;
+}
+.ali-color
+{
+    background-color: white;
+}
+
+ .ahmed-img
+ {
+     width: 400px;
+     bottom: 67%;
+     transform: translateX(-50%);
+     left: 50%;
+ }
+
+ .sahm-shamal
+ {
+    position: relative;
+    right:  200px;
+    color: rgb(129, 23, 23);
+ }
+ .ahmed-icon
+ {
+     font-size: 40px;
+     color: black;
+ }
+ 
+
+ 
+
+/*
+ ///////////////////////////
+////////////////////////////
+///////////contact//////////
+////////////////////////////
+////////////////////////////
+ */
+
+ .ahmed-p
+ {
+     margin-left: 70px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.perant
+{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.one
+ {
+     background-color: tomato;
+     width: 25%;
+     height: 100px;
+     margin: 50px;
+ }
